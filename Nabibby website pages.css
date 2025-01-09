@@ -153,3 +153,16 @@ transition: 0.3s;
 .pinkbackground:hover{
     background: rgb(247, 122, 143);
 }
+
+.animation{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+  }
+  
+  @keyframes moveup{
+    100%{
+      opacity: 1;
+      transform: translateY(0)
+    }
+  }
